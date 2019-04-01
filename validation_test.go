@@ -12,7 +12,7 @@ var (
 	message1 = "message1"
 )
 
-var _ = Describe("Validation corelib", func() {
+var _ = Describe("validation", func() {
 	Describe("creation", func() {
 		Describe("NewNode()", func() {
 			It("returns validation node", func() {
